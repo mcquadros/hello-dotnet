@@ -6,6 +6,6 @@ var app = builder.Build();
 app.MapGet("/ping", () => "pong");
 
 // GET /hello - responds with JSON message
-app.MapGet("/hello", () => new { message = "Hello from .NET buildpacks demo!!!!" });
+app.MapGet("/hello", () => new { message = "Hello from .NET buildpacks demo 26/07" });
 
 app.Run();
